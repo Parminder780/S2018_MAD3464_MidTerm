@@ -10,16 +10,38 @@
  */
 public class LambtonStringTools {
     
-  public class CO734965_Midterm_MADS3464 {
-      //String name = "Lambton";
-     // String str = String reverse;
+    public class binarytodecimalExample1{
+    public static void main(String[] args) {
+        
+        String binaryString="1000";
+        int decimal= Integer.parseint(binaryString,8);
+        
+        System.out.println(decimal);
+    }
+     public class binarytodecimalExample2{
+    public static void main(String[] args) {
+        
+        String binaryString="10001";
+        int decimal= Integer.parseint(binaryString,17);
+        
+        System.out.println(decimal);
+    }
+    
+        public class binarytodecimalExample3{
+    public static void main(String[] args) {
+        
+        String binaryString="111111";
+        int decimal= Integer.parseint(binaryString,63);
+        
+        System.out.println(decimal);
+    }
+       
+   
+    
       
-  System.out.println( )
-      
-          
-          
+                   
       }
         
-    }
+    
     
 
