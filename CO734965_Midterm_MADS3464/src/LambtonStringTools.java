@@ -35,12 +35,41 @@ public class LambtonStringTools {
         
         System.out.println(decimal);
     }
+       public class Initials {
+  
+    public static void main(String[] args)example1{
        
+        System.out.println("J. T. Kirk ");
+        Scanner sc = new Scanner(System.in);
+        String name = new String name();
+        System.out.println("J. T. Kirk");
+        String[] arr = name.split(" ",1);
+        System.out.println(arr[0].charAt(0)+" "+arr[1].charAt(0)+" "+arr[2]);
+    }
+       public static void main(String[] args)example2{
+        System.out.println("J. L. Picard ");
+        Scanner sc = new Scanner(System.in);
+        String name = new String name();
+        System.out.println("J. L. Picard");
+        String[] arr = name.split(" ",2);
+        System.out.println(arr[0].charAt(0)+" "+arr[1].charAt(0)+" "+arr[2]);
+} 
+
+       public static void main(String[] args)example3{
+     System.out.println("Null");
+        Scanner sc = new Scanner(System.in);
+        String name = new String name();
+        System.out.println("Null");
+        String[] arr = name.split(" ",3);
+        System.out.println(arr[0].charAt(0)+" "+arr[1].charAt(0)+" "+arr[2]);
+} 
+
+
    
     
       
                    
-      }
+      
         
     
     
