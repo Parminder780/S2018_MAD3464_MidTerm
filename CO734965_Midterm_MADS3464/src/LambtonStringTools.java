@@ -67,6 +67,27 @@ public class LambtonStringTools {
 
    
     
+ public static void main(String []args){
+        
+        System.out.println(StringReverse.reverse("Lambton"));
+        System.out.println("" + BinaryDecimal.binaryToDecimal("1000"));
+        System.out.println(MaxOccurenceOfCharacter.mostFrequent("aaaabbbbccc"));
+        System.out.println(SubString.replaceSubString("the dog jumped over the fence.", "the", "that"));
+     }
+}
+
+class StringReverse {
+
+    public static String reverse(String input) {
+        String reverse = "";
+        for(int i = input.length() - 1; i >= 0; i--)
+        {
+            reverse = reverse + input.charAt(i);
+        }
+        return reverse;
+    }
+}
+
       
                    
       
